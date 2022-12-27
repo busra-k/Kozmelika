@@ -1,0 +1,301 @@
+@media only screen and (max-width: 1034px){
+
+    .justify, .centriran, 
+    iframe, .pravougaoneSlike, 
+    input, textarea, #sekcija{
+        
+        width: 800px;
+    }
+
+    .slike_tekst{
+        width: 50%;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #fotke{
+        width: 600px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1005px){
+
+    #container {
+        width: 500px;
+    }
+
+    article:nth-child(3), article:nth-child(5) {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 830px){
+
+    span {
+        display: block;
+    }
+
+    .justify, .centriran, 
+    iframe, .pravougaoneSlike, 
+    input, textarea, #sekcija{
+        
+        width: 600px;
+    }
+
+    .slike_tekst{
+        width: 50%;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    aside {
+        width: 100%;
+        height: fit-content;
+    }
+
+    aside p{
+        margin: auto 50px;
+    }
+
+    #map {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 759px){
+    
+    header{
+        height: 100%;
+    }
+
+    header ul{
+        display: block;
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+
+    header li{
+        display: block;
+        float: none;
+        border-bottom: 0.5px solid rgba(253, 245, 230, 0.226);
+        
+    }
+
+    #map {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 622px){
+
+    main{
+        border-bottom-right-radius: 180px;
+    }
+
+    .justify, .centriran, 
+    iframe, .pravougaoneSlike, 
+    input, textarea, #sekcija{
+        
+        width: 450px;
+    }
+    
+    .slike_tekst{
+        width: 70%;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #map, #pedesetgod {
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 130px;
+    }
+
+    main h3{
+        font-size: 80px;
+    }
+
+    aside {
+        width: 100%;
+        height: fit-content;
+    }
+
+    aside p{
+        padding: 20px;
+        margin: auto 15px;
+    }
+
+    aside img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .justify h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 617px){
+    
+    main{
+        border-bottom-right-radius: 180px;
+    }
+
+    #container {
+        width: 250px;
+    }
+
+    article{
+        float: right; 
+    }
+
+    #fotke{
+        width: 250px;
+        text-align: center;
+    }
+
+    footer a {
+        position: static;
+    }
+
+    .justify h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    main{
+        border-bottom-right-radius: 180px;
+    }
+
+    #map{
+        width: 100%;
+    }
+    #pedesetgod {
+        width: 100%;
+    }
+
+    #kat a {
+        font-size: 40px;
+    }
+
+    main h2{
+        font-size: 120px;
+    }
+
+    main h3{
+        padding-left: 60px;
+        font-size: 60px;
+    }
+
+    .justify, .centriran, 
+    iframe, .pravougaoneSlike, 
+    input, textarea, #sekcija{
+        
+        width: 350px;
+    }
+    
+    .slike_tekst{
+        width: 90%;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    aside {
+        width: 100%;
+        height: fit-content;
+    }
+
+    aside p{
+        padding: 20px;
+        margin: auto 5px;
+    }
+
+    aside img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .justify h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+
+    main{
+        border-bottom-right-radius: 180px;
+    }
+
+    main h2{
+        padding-top: 280px;
+        padding-left: 30px;
+        font-size: 90px;
+    }
+
+    main h3{
+        padding-left: 60px;
+        font-size: 50px;
+    }
+
+    main{
+        border-bottom-right-radius: 180px;
+    }
+}
+
+@media only screen and (max-width: 368px){
+
+    main{
+        border-bottom-right-radius: 180px;
+    }
+
+    main h2{
+        padding-top: 280px;
+        padding-left: 30px;
+        font-size: 80px;
+    }
+
+    main h3{
+        padding-left: 60px;
+        font-size: 50px;
+    }
+
+    .justify, .centriran, 
+    iframe, .pravougaoneSlike, 
+    input, textarea, #sekcija{
+        
+        width: 300px;
+    }
+
+    aside {
+        width: 100%;
+        height: fit-content;
+    }
+
+    aside p{
+        margin: auto;
+        padding: 20px;
+    }
+    aside img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .justify h1 {
+        font-size: 18px;
+    }
+}

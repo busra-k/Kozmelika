@@ -1,0 +1,344 @@
+*{
+    /* outline: 1.5px dashed red; */
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face{
+    font-family:tahamo;
+   
+}
+
+body{
+    font-family: 'Cursive', sans-serif;    
+}
+ 
+header, footer {width: 100%;}
+
+header{
+    background-color:rgb(19, 18, 18);
+    color: white;
+    height: 80px;
+    padding: 22px 35px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 28px;
+}
+
+header sub {
+    font-size: 15px;
+}
+
+header ul{
+    display: inline-block;
+    float: right;
+    padding-left: 0px;
+}
+
+header li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header a{  
+    color: white;
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+header a:hover{
+    cursor: pointer;
+    color: #4affe4;
+}
+
+main {
+    width: 100%;
+    height: 650px;
+    background-image: url(photos/giris.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -50px;
+    border-bottom-right-radius: 350px;
+    font-family:tahamo;
+}
+
+main h3{
+    font-size:80px;
+    color:#B1AFAF;
+    padding-left: 150px;
+    
+}
+#container {
+    /* border: 2px solid blue; */
+    width: 1005px;
+    margin: auto;    
+}
+
+article{
+    /* border: 1px solid green; */
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#fix{
+    float: none;
+    clear: both;
+}
+
+article img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+article h4{
+    padding: 10px;
+}
+
+article a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    left: 65px;
+}
+
+article a:hover{
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+article:nth-child(1) {
+    background-color: #33CCFF;
+    padding: 50px 0px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+article:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+article:nth-child(3) a{
+    color: white;
+    border: 1px solid white;
+}
+
+article:nth-child(6) {
+    background-color: rgb(168, 255, 246);
+    padding: 50px 0px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+
+
+.justify a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#fusnote{
+    font-size: small;
+}
+
+#fotke{
+    /* border: 1px solid red; */
+    width: 1015px;
+    margin: auto; 
+}
+
+picture{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    /* border: 1px solid yellowgreen; */
+    margin:10px;    
+}
+
+picture img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+aside{
+    width: 750px;
+    height: 150px;
+    margin: 40px auto;
+    border: 0.5px solid slategrey;
+    border-radius: 20px;
+    display: flex;  
+}
+
+aside img{
+    /* border: 1px solid blueviolet; */
+    border-radius: 50%;
+    width: 150px; 
+}
+
+aside p{
+    margin: auto 100px;
+}
+
+#sekcija{
+    width: 920px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.slike_tekst{
+    width: 30%;
+    height: 300px;
+    border: 0.5px solid slategrey;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px 10px;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+input, textarea, iframe{
+    width: 1000px;
+}
+
+input, textarea{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+}
+
+form input[type=submit]{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 18px;  
+}
+
+form input:focus, textarea:focus{
+    background-color: rgb(253, 237, 239); 
+}
+
+form input[type=submit]:hover{
+    background-color: rgb(224, 134, 164);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+#potpis{
+    color: lightslategray;
+}
+
+footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+#rights {
+    font-size: smaller;
+}
+
+footer p {
+    line-height: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid cornsilk;
+    border-bottom-right-radius: 15px ;
+    border-top-left-radius: 15px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+footer a:hover{
+    cursor: pointer;
+    background-color: rgb(31, 29, 29);
+    color: #4affe4;
+}
+
+.justify, .centriran{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.justify{
+    /* border: 2px solid red; */
+    text-align: justify;
+}
+
+.centriran{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+#reg{
+    display: block;
+    margin: auto;
+}
+
+#reg, #kat{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 40px;
+} 
+
+#reg a, #kat a{
+    text-decoration: none;
+    color:#FF00A6;
+    font-size: 50px;
+    font-family: myFirstFont;
+    font-weight: bold;
+}
+
+#reg:hover, #kat:hover {
+    background-color: rgb(204, 203, 203);
+    transition: 1s all;
+}
+
+#reg a:hover, #kat a:hover{
+
+    color: #fd077a;
+    transition: 0.5s all;  
+}
+
+#map {
+    display: block;
+    margin: auto;
+    border-radius: 50%;  
+}
+
+#pedesetgod {
+
+    border-radius: 50%;
+}
